@@ -1,1 +1,30 @@
-//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+table{
+    margin: auto;
+
+    tr{
+        margin-bottom: 5px;
+        border-bottom: 1px solid black;
+        th{
+            text-align: left;
+
+            &:nth-child(2){
+                text-align: center;
+            }
+        }
+
+        td:nth-child(2){
+            padding: 0 50px;
+        }
+    }
+}
